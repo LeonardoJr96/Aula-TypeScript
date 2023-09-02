@@ -7,6 +7,7 @@ function printObjetos(pessoa:heroi) {
     console.log(pessoa);
 }
 
+//isso printa um objeto
 printObjetos({
     name: "Bruce Wayne",
     vulgo: "Batman",
