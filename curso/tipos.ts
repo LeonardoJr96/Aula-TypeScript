@@ -58,9 +58,9 @@ let boleto: [string, number, number] = ["agua conta", 199.90, 3218615616]; //pre
 
 //*array métodos
 
-dados.map() // mapear o elemento
-dados.pop() // remover o ultimo elemento
-dados.filter() // filtrar algo especifico dentro do array
+//dados.map() - mapear o elemento
+//dados.pop() - remover o ultimo elemento
+//dados.filter() - filtrar algo especifico dentro do array
 
 //*Datas - Armazena datas e horas
 let aniversario: Date = new Date ("2022-12-01 05:00");
