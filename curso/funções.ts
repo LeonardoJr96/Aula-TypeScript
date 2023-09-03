@@ -7,6 +7,8 @@ let soma: number = addNumber(4,7);
 
 console.log(soma);
 
+//
+
 function addToHello(name: string): string{
     return `Hello ${name}`;
 }
