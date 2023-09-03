@@ -17,3 +17,27 @@ let retornoView: any = ""; //aceita qualquer coisa e é utilizado quando o valor
 
 //void
 let retorno: void //utilizado em funções e não cria retorno
+
+
+//objeto - sem previsibilidade
+
+//tem que dar valores dentro de um objeto
+let produto: object = {
+    name: "Felipe",
+    cidade: "sp",
+    idade: 30,
+}; 
+
+
+//objeto tipado - com previsibilidade
+type ProdutoLoja = {
+    nome: string;
+    preco: number;
+    unidades: number;
+};
+
+let meuProduto: ProdutoLoja = {
+    nome: "Tênis",
+    preco: 89.99,
+    unidades: 5,
+}
