@@ -51,3 +51,6 @@ let dados2: Array<string> = ["Felipe", "ana", "adriana"];
 //array com multitypes - | significa "ou"
 let infos: (string | number)[] = ["Felipe", 30, 30, "adriana"];
 
+// Tuplas - cria uma ordem nos array
+let ex: [] = [] //formula
+let boleto: [string, number, number] = ["agua conta", 199.90, 3218615616]; //precisa estar na exata ordem
