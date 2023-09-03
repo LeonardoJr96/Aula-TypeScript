@@ -20,8 +20,15 @@ function CalllToPhone(phone: number | string): number | string { // esse é o ma
     return phone;
 }
 
-function CalllToPhone(phone: number | string): any {
+function CalllToPhone1(phone: number | string): any {
     return phone;
 }
 
-console.log(CalllToPhone()) // nesse caso retorna number ou string
+console.log(CalllToPhone("41")) // nesse caso retorna number ou string
+
+
+//* funções assincronas
+
+async function getDatabase(id: number): Promise<string> {
+    return "felipe";
+}
