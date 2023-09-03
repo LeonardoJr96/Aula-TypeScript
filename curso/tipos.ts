@@ -43,7 +43,8 @@ let meuProduto: ProdutoLoja = {
 }
 
 
-//array
+//*array
+
 //declarar array
 let dados: string[] = ["Felipe", "ana", "adriana"];
 let dados2: Array<string> = ["Felipe", "ana", "adriana"];
@@ -54,3 +55,9 @@ let infos: (string | number)[] = ["Felipe", 30, 30, "adriana"];
 // Tuplas - cria uma ordem nos array
 let ex: [] = [] //formula
 let boleto: [string, number, number] = ["agua conta", 199.90, 3218615616]; //precisa estar na exata ordem
+
+//*array métodos
+
+dados.map() // mapear o elemento
+dados.pop() // remover o ultimo elemento
+dados.filter() // filtrar algo especifico dentro do array
