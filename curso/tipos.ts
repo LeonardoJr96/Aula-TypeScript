@@ -47,3 +47,7 @@ let meuProduto: ProdutoLoja = {
 //declarar array
 let dados: string[] = ["Felipe", "ana", "adriana"];
 let dados2: Array<string> = ["Felipe", "ana", "adriana"];
+
+//array com multitypes - | significa "ou"
+let infos: (string | number)[] = ["Felipe", 30, 30, "adriana"];
+
