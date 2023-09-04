@@ -42,6 +42,8 @@ class Magician extends Character {
 const p1 = new Character("Ryu", 10, 98);
 const p2 = new Magician("Mago", 9, 30, 100)
 
+/*
 console.log(p1); //exibe Character { stregth: [valor] , skill: [valor]}
 
 p1.attack(); //exibe "Attack with ${this.stregth} points"
+*/
