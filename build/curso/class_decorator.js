@@ -5,16 +5,14 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
-function ExibirNome(target) {
-    console.log(target);
+function apiVersion(version) {
+    return (target) => {
+        Object.assign(target.prototype, { __version: version });
+    };
 }
-let Funcionario = class Funcionario {
+let Api = class Api {
 };
-Funcionario = __decorate([
-    ExibirNome
-], Funcionario);
-let Quincas = class Quincas {
-};
-Quincas = __decorate([
-    ExibirNome
-], Quincas);
+Api = __decorate([
+    apiVersion("1.10")
+], Api);
+const api = new Api();
