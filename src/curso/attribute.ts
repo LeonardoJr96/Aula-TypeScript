@@ -7,7 +7,7 @@ function apiVersion(version: string){
 
 //attribute decorator
 function minLength(length: number) {
-    return (target:any, key: any) => {  //utilizei "key: any" pelo TS não reconhecer o string  como legitímo nesse caso
+    return (target: any, key: string) => {  
        let _value = target[key];
 
        const getter = () => _value;
@@ -26,7 +26,7 @@ function minLength(length: number) {
     };
 }
 
-class Api{
+class Apii {
     @minLength(3) 
     name: string;
 
@@ -35,6 +35,6 @@ class Api{
     }
 }
 
-const api = new Api("usa");
-console.log(api.name)
+const apii = new Apii("usaa");
+console.log(apii.name)
 
