@@ -1,6 +1,12 @@
 //classes
+/*
+    data modifiers
+    public - onde todos vê
+    private - só as classes vê
+    protected - classes e subclasses vê
+*/
 class Character {
-    name?: string;
+    private name?: string;
     stregth: number;
     skill: number;
 
