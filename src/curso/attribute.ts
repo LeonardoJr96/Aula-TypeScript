@@ -1,10 +1,3 @@
-//decorators
-function apiVersion(version: string){
-    return (target: any) => {
-        Object.assign(target.prototype, {__version: version});
-    };
-}
-
 //attribute decorator
 function minLength(length: number) {
     return (target: any, key: string) => {  
